@@ -1,0 +1,7 @@
+---
+
+- hosts: local
+  become: yes
+  roles:
+  #  - apache_server
+    - apache2.2_server
